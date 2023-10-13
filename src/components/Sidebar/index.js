@@ -20,14 +20,22 @@ const Sidebar = () => (
       <img className="sub-logo" src={LogoSubtitle} alt="subtitle" />
     </Link>
     <nav id="sidebar">
-      <NavLink exact="true" to="/">
-        <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+      <NavLink exact="true" className="nav-menu-link" to="/">
+        <FontAwesomeIcon icon={faHome} color="#4d4d4e" className="nav-svg" />
       </NavLink>
-      <NavLink exact="true" className="about-link" to="/about">
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+      <NavLink exact="true" className="about-link nav-menu-link" to="/about">
+        <FontAwesomeIcon icon={faUser} color="#4d4d4e" className="nav-svg" />
       </NavLink>
-      <NavLink exact="true" className="contact-link" to="/contact">
-        <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+      <NavLink
+        exact="true"
+        className="contact-link nav-menu-link"
+        to="/contact"
+      >
+        <FontAwesomeIcon
+          icon={faEnvelope}
+          color="#4d4d4e"
+          className="nav-svg"
+        />
       </NavLink>
     </nav>
     <ul>

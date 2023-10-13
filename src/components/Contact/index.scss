@@ -63,7 +63,6 @@
     text-decoration: none;
     padding: 8px 10px;
     border: 1px solid #ffd700;
-    float: left;
     border-radius: 4px;
     background: 0 0;
     text-transform: uppercase;
@@ -99,7 +98,12 @@
   width: 267px;
   padding: 20px;
   color: #fff;
-  font-family: 'Helvetica';
+  font-family:
+    'Helvetica Neue',
+    Helvetica-Neue,
+    HelveticaNeue,
+    Arial,
+    sans-serif;
   font-size: 17px;
   font-weight: 300;
   opacity: 0;
