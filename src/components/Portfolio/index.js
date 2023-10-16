@@ -19,15 +19,14 @@ const Portfolio = () => {
     };
   });
 
-  useEffect(() => {
-    // eslint-disable-next-line no-use-before-define
-    getPortfolio();
-  }, []);
-
   const getPortfolio = async () => {
     const querySnapshot = await getDocs(collection(db, 'portfolio'));
     setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
   };
+
+  useEffect(() => {
+    getPortfolio();
+  }, []);
 
   const renderPortfolio = (portfolio) => (
     <div className="images-container">
