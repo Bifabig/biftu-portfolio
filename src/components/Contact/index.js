@@ -40,14 +40,14 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={'Contact me'.split('')}
               idx={15}
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don&apos;t hesitate to contact me using below form either.
+            I am interested in remote/freelance opportunities.
+            If you have any requests or questions,
+            don&apos;t hesitate to contact me using the form below.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -86,24 +86,21 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Biftu Girma
           <br />
-          Serbia,
           <br />
-          Branka RadiČevića 19, 22000
+          Addis Ababa,
+          <br />
+          Ethiopia
           {' '}
           <br />
-          Sremska Mitrovica
-          {' '}
-          <br />
-          <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>biftubig@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[9.005808, 38.767968]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[9.005808, 38.767968]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Biftu lives here! :)</Popup>
             </Marker>
           </MapContainer>
         </div>

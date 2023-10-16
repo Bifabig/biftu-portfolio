@@ -28,23 +28,27 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={'About me'.split('')}
               idx={15}
             />
           </h1>
           <p>
-            I&apos;m a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
+            I&apos;m a very ambitious full-stack developer looking for a role in an
+            established Tech company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p>
-            I&apos;m quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Since I was a little boy, Coding has always been my passion.
+            So when the time came for my undergraduate studies I chose Software Engineering and
+            I became part of the second batch of students to graduate in the field from my campus.
+            I always thought I could work as a developer but things took a different turn and
+            I started working as a digital marketer both locally and on freelancing platforms.
+            This experience helped me to understand what it means to work as part of a remote team.
+            I was able to work for companies in the USA, Israel, and Malaysia.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            If I need to define myself in a sentence it would be a believer of Jesus Christ,
+            a family man, a father to a handsome boy, and tech-obsessed!!!
           </p>
         </div>
 
