@@ -8,22 +8,9 @@ import './index.scss';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = ['i', 'f', 't', 'u'];
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-  ];
+  const nameArray = 'iftu,'.split('');
+  const jobArray = 'a Full-stack'.split('');
+  const jobArray2 = 'web developer'.split('');
 
   useEffect(() => {
     setTimeout(() => {
@@ -36,7 +23,7 @@ const Home = () => {
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _12`}>i!</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>&apos;m</span>
@@ -52,8 +39,18 @@ const Home = () => {
               strArray={jobArray}
               idx={22}
             />
+            <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray2}
+              idx={22}
+            />
           </h1>
-          <h2>Fullstack Developer</h2>
+          <h2>
+            React/Redux | Ruby on Rails | 100% Job Success Score on Upwork
+            | Digital Marketing Specialist
+
+          </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
