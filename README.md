@@ -71,7 +71,7 @@
 
 <!-- > Add a link to your deployed project. -->
 
-- <a href="https://bifabig.github.io/personal-portfolio-microverse/">Personal Portfolio Live</a>
+- <a href="https://biftu-portfolio.netlify.app/">Biftu's Portfolio Live</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Bifabig/math-magicians.git
+  git clone https://github.com/Bifabig/biftu-portfolio
 ```
 
 ### Install
