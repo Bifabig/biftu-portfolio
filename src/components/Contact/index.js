@@ -3,12 +3,16 @@ import Loader from 'react-loaders';
 import {
   MapContainer, TileLayer, Marker, Popup,
 } from 'react-leaflet';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 import emailjs from '@emailjs/browser';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
+  const [showModal, setShowModal] = useState(false);
+  const [modalText, setModalText] = useState();
   const form = useRef();
 
   useEffect(() => {
@@ -24,14 +28,18 @@ const Contact = () => {
       .sendForm('service_fy9dwjf', 'template_73vdu8l', form.current, 'lKPVSQb5D0K5YfNh9')
       .then(
         () => {
-          alert('Message successfully sent!');
-          window.location.reload(false);
+          setShowModal(true);
+          setModalText('I will get back to you as soon as possible.');
         },
         () => {
-          alert('Failed to send the message, please try again');
+          setShowModal(true);
+          setModalText('Failed to send the message, please try again');
         },
       );
+    e.target.reset();
   };
+
+  const handleClose = () => setShowModal(false);
 
   return (
     <>
@@ -50,39 +58,54 @@ const Contact = () => {
             don&apos;t hesitate to contact me using the form below.
           </p>
           <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
-                </li>
-                <li className="half">
-                  <input
-                    placeholder="Email"
-                    type="email"
-                    name="email"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    placeholder="Subject"
-                    type="text"
-                    name="subject"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea
-                    placeholder="Message"
-                    name="message"
-                    required
-                  />
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form>
+            {showModal ? (
+              <Modal show={showModal} onHide={handleClose}>
+                <Modal.Header closeButton>
+                  <Modal.Title>Thank You for your inquiry!</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>{modalText}</Modal.Body>
+                <Modal.Footer>
+                  <Button variant="danger" onClick={handleClose}>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+            ) : (
+              <form ref={form} onSubmit={sendEmail}>
+                <ul>
+                  <li className="half">
+                    <input placeholder="Name" type="text" name="name" required />
+                  </li>
+                  <li className="half">
+                    <input
+                      placeholder="Email"
+                      type="email"
+                      name="email"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <input
+                      placeholder="Subject"
+                      type="text"
+                      name="subject"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <textarea
+                      placeholder="Message"
+                      name="message"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <input type="submit" className="flat-button" value="SEND" />
+                  </li>
+                </ul>
+              </form>
+            )}
+
           </div>
         </div>
         <div className="info-map">

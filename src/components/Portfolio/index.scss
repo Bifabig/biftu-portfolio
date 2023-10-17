@@ -6,7 +6,7 @@
 .portfolio-page {
   padding-left: 100px;
   padding-right: 50px;
-  width: calc(100% - 150px);
+  width: 100%;
   position: initial;
   height: 100%;
   overflow: auto;
@@ -57,7 +57,7 @@
     }
 
     .title {
-      margin-bottom: 0;
+      margin-bottom: 20px;
       margin-top: 20px;
       color: #fff;
       font-size: 24px;
@@ -66,11 +66,11 @@
     }
 
     .description {
-      font-size: 14px;
+      font-size: 12px;
       margin-bottom: 5px;
       color: #fff;
-      font-weight: 700;
-      max-width: 90%;
+      font-weight: 400;
+      max-width: 100%;
       max-height: 10%;
     }
 
