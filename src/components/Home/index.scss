@@ -12,7 +12,7 @@
     color: #fff;
     font-size: 53px;
     margin: 0;
-    font-family: 'Coolvetica', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
 
     &::before {
       content: '<h1>';
@@ -38,7 +38,8 @@
     }
 
     img {
-      width: 7.5%;
+      width: 10%;
+      margin-top: -10px;
       margin-left: 20px;
       opacity: 0;
       height: auto;

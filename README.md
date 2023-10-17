@@ -17,7 +17,6 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [🎥 Video](#video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -49,7 +48,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">React</a></li>
+    <li><a href="https://react.dev/">React</a></li>
   </ul>
 </details>
 
@@ -76,15 +75,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Video -->
-
-## 🎥 Video <a name="video"></a>
-
-<!-- > Add a link to your video project. -->
-
-<a href="https://www.loom.com/share/8495aedf60f543beae9c2dbdda779123">Get an understanding of the project by watching this video</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -96,88 +86,53 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-Basic HTML, CSS and JavaScript knowledge
+In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A text editor like Microsoft Visual Studio Code.
+- A Github account.
+- Internet Connection.
+- Basic HTML, CSS, JavaScript and React knowledge.
 
 ### Setup
 
-Use the '$git clone <code_link>' command and
-clone this repository to your desired folder.
-
-Run the following command on your local machine:
-cd my-folder
-git clone git@github.com:Bifabig/personal-portfolio-microverse.git
-
-<!--
-Example commands:
+Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Bifabig/math-magicians.git
 ```
---->
 
 ### Install
 
-No installation required
-
-<!--
-Example command:
+Run this command inside the cloned repository
 
 ```sh
-  cd my-project
-  gem install
+npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-Open the index.html file in your browser
-
-<!--
-Example command:
-
 ```sh
-  rails server
+npm start
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-No need to run any commands
-
-<!--
-Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  n/a
 ```
---->
 
 ### Deployment
 
 You can deploy this project using:
 
-Github Pages
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- Github Pages
+- Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,7 +166,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-I would like to thank Microverse and my coding partner @mosidrum.
+I would like to thank the Microverse community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +175,5 @@ I would like to thank Microverse and my coding partner @mosidrum.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-\_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
