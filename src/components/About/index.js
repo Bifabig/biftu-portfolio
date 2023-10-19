@@ -33,11 +33,6 @@ const About = () => {
             />
           </h1>
           <p>
-            I&apos;m a very ambitious full-stack developer looking for a role in an
-            established Tech company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </p>
-          <p>
             Since I was a little boy, Coding has always been my passion.
             So when the time came for my undergraduate studies I chose Software Engineering and
             I became part of the second batch of students to graduate in the field from my campus.
@@ -47,8 +42,26 @@ const About = () => {
             I was able to work for companies in the USA, Israel, and Malaysia.
           </p>
           <p>
-            If I need to define myself in a sentence it would be a believer of Jesus Christ,
-            a family man, a father to a handsome boy, and tech-obsessed!!!
+            I&apos;m a very ambitious full-stack developer looking for a role in an
+            established Tech company with the opportunity to work with the latest
+            technologies on challenging and diverse projects.
+          </p>
+          <p>
+            <ul>
+              <li>
+                Front End: JavaScript, React, Redux, HTML5, CSS3, SASS.
+              </li>
+              <li>
+                Back End: Ruby, Rails, MySQL, PostgreSQL, MongoDB, NodeJS
+              </li>
+              <li>
+                Tools and Methods: Git, Github, Netlify, Render, Dev Tools.
+              </li>
+              <li>
+                Professional: Agile Methodology, Remote Pair-Programming,
+                Team Work, Communication, Mentoring.
+              </li>
+            </ul>
           </p>
         </div>
 
@@ -68,6 +81,7 @@ const About = () => {
             </div>
             <div className="face5">
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
