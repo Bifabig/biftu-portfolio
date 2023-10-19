@@ -111,12 +111,9 @@ const Contact = () => {
         <div className="info-map">
           Biftu Girma
           <br />
-          <br />
           Addis Ababa,
           <br />
           Ethiopia
-          {' '}
-          <br />
           <span>biftubig@gmail.com</span>
         </div>
         <div className="map-wrap">
