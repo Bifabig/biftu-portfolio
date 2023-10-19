@@ -23,13 +23,13 @@ const Sidebar = () => (
     </Link>
     <nav id="sidebar">
       <NavLink exact="true" className="nav-menu-link" to="/">
-        <FontAwesomeIcon icon={faHome} color="#4d4d4e" className="nav-svg" />
+        <FontAwesomeIcon icon={faHome} color="#fff" className="nav-svg" />
       </NavLink>
       <NavLink exact="true" className="about-link nav-menu-link" to="/about">
-        <FontAwesomeIcon icon={faUser} color="#4d4d4e" className="nav-svg" />
+        <FontAwesomeIcon icon={faUser} color="#fff" className="nav-svg" />
       </NavLink>
       <NavLink exact="true" className="portfolio-link nav-menu-link" to="/portfolio">
-        <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" className="nav-svg" />
+        <FontAwesomeIcon icon={faSuitcase} color="#fff" className="nav-svg" />
       </NavLink>
       <NavLink
         exact="true"
@@ -38,7 +38,7 @@ const Sidebar = () => (
       >
         <FontAwesomeIcon
           icon={faEnvelope}
-          color="#4d4d4e"
+          color="#fff"
           className="nav-svg"
         />
       </NavLink>
@@ -50,22 +50,22 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://www.linkedin.com/in/biftu-girma"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faLinkedin} color="#fff" />
         </a>
       </li>
       <li>
         <a target="_blank" rel="noreferrer" href="https://github.com/Bifabig">
-          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faGithub} color="#fff" />
         </a>
       </li>
       <li>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/biftu94">
-          <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faTwitter} color="#fff" />
         </a>
       </li>
       <li>
         <a target="_blank" rel="noreferrer" href="https://medium.com/@biftubig">
-          <FontAwesomeIcon icon={faMedium} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faMedium} color="#fff" />
         </a>
       </li>
       <li>
@@ -74,7 +74,7 @@ const Sidebar = () => (
           rel="noreferrer"
           href="https://wellfound.com/u/biftu-girma"
         >
-          <FontAwesomeIcon icon={faAngellist} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faAngellist} color="#fff" />
         </a>
       </li>
     </ul>
