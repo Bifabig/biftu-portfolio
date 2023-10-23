@@ -75,7 +75,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -122,7 +121,6 @@ npm start
 
 To run tests, run the following command:
 
-
 ```sh
   n/a
 ```
@@ -163,8 +161,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-<!-- > Give credit to everyone who inspired your codebase. -->
 
 I would like to thank the Microverse community.
 
