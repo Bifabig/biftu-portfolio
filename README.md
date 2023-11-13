@@ -30,19 +30,14 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 Biftu's Portfolio <a name="about-project"></a>
-
-<!-- > Describe your project in 1 or 2 sentences. -->
 
 **Biftu's Portfolio** is a portfolio website for Biftu Girma showcasing recent projects and other related informations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
 
 <details>
   <summary>Client</summary>
@@ -60,15 +55,12 @@
 - **Portfolio Page**
 - **Animations**
 
-<!-- > Describe between 1-3 key features of the application. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-<!-- > Add a link to your deployed project. -->
 
 - <a href="https://biftu-portfolio.netlify.app/">Biftu's Portfolio Live</a>
 
@@ -77,8 +69,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-<!-- > Describe how a new developer could make use of your project. -->
 
 To get a local copy up and running, follow these steps.
 
@@ -136,8 +126,6 @@ You can deploy this project using:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-<!-- > Mention all of the collaborators of this project. -->
 
 👤 **Biftu Girma**
 
